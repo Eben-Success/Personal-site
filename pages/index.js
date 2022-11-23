@@ -48,7 +48,7 @@ export default function Home() {
 
         <section>
           <h3 className="text-3xl py-1" >What I do</h3>
-          <p> I am enthusiastic, responsible, and hardworking. Having worked on different projects has helped me to adapt to changes quickly and made me a mature team worker.</p>
+          <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
         </section>
       </main>
 
