@@ -52,14 +52,38 @@ export default function Home() {
 
         <section>
           <div>
-          <h3 className="text-3xl py-1" >What I do</h3>
-          <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
-          
-          <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
+            <h3 className="text-3xl py-1" >What I do</h3>
+            <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
+
+            <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
           </div>
           <div>
-            <div>
-              <Image src={ } />
+            <div className="text-center shadow-lg pd-10 rounded-xl my-10">
+              <Image src={design} width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+              <p className='py-2'>Creating elegant designs suited for your needs</p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+            </div>
+            <div className='text-center shadow-lg pd-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+              <p className='py-2'>Creating elegant designs suited for your needs</p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+            </div>
+            <div className='text-center shadow-lg pd-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+              <p className='py-2'>Creating elegant designs suited for your needs</p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Figma</p>
             </div>
           </div>
         </section>
