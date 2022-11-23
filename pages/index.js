@@ -1,6 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
+import {
+  AiFillTwitterCircle,
+  AiFillGithub,
+  AiFillLinkedin,
+} from 'react-icons/ai';
+import Image from 'next/image';
+import deved from "../public/dev-ed-wave.png";
 
 export default function Home() {
   return (
@@ -11,9 +18,37 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <section className=' bg-blue-700 min-h-screen' >
-          <h1>Hello</h1>
+      <main className='bg-white px-10' >
+        <section className='min-h-screen' >
+          <nav className='py-10 mb-12 flex justify-between' >
+            <h1 className="text-xl  font-burtons" >EbenSuccess</h1>
+            <ul className="flex items-center">
+              <li>
+                <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
+              </li>
+              <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
+            </ul>
+          </nav>
+          <div className='text-center p-10 ' >
+            <h2 className='text-5xl py-2 text-teal-600 font-medium' >EbenSuccess</h2>
+            <h3 className='text-2xl py-2' >Software Engineer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800' >I am a motivated computer science student at the University of Ghana with experience in machine learning and software development. A solution-oriented team player with a recognized aptitude for innovative thinking</p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600" >
+            <a href=""><AiFillTwitterCircle /></a>
+            <a href=""><AiFillLinkedin /> </a>
+            <a href=""><AiFillGithub /></a>
+
+
+          </div>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image src={deved} layout="fill" objectFit='cover' />
+          </div>
+        </section>
+
+        <section>
+          <h3 className="text-3xl py-1" >What I do</h3>
+          <p> I am enthusiastic, responsible, and hardworking. Having worked on different projects has helped me to adapt to changes quickly and made me a mature team worker.</p>
         </section>
       </main>
 
