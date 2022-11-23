@@ -58,7 +58,7 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
           </div>
           <div>
-            <div className="text-center shadow-lg pd-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>Creating elegant designs suited for your needs</p>
