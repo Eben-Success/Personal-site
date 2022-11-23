@@ -8,6 +8,10 @@ import {
 } from 'react-icons/ai';
 import Image from 'next/image';
 import deved from "../public/dev-ed-wave.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
+
 
 export default function Home() {
   return (
@@ -47,8 +51,17 @@ export default function Home() {
         </section>
 
         <section>
+          <div>
           <h3 className="text-3xl py-1" >What I do</h3>
           <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
+          
+          <p className='text-md py-2 leading-8 text-gray-800' > I am enthusiastic, responsible, and hardworking. Having worked on       different  <spen className="text-teal-500" >projects</spen>   has helped me to <span className="text-teal-500" >adapt</span>  to changes quickly and made me a mature team worker.</p>
+          </div>
+          <div>
+            <div>
+              <Image src={ } />
+            </div>
+          </div>
         </section>
       </main>
 
